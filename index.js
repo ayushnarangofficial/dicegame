@@ -5,14 +5,14 @@ function ab () {
     // FOR LEFT DICE
     var randomNumber1 = Math.floor((Math.random() * 6) + 1);
 
-    var randomImage = "images/dice" + randomNumber1 + ".png";
+    var randomImage = "dice" + randomNumber1 + ".png";
 
     document.querySelector(".img1").setAttribute("src", randomImage);
 
     // FOR RIGHT DICE
     var randomNumber2 = Math.floor((Math.random() * 6) + 1);
 
-    var randomImage1 = "images/dice" + randomNumber2 + ".png";
+    var randomImage1 = "dice" + randomNumber2 + ".png";
 
     document.querySelector(".img2").setAttribute("src", randomImage1);
 
