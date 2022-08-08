@@ -1,0 +1,166 @@
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #f711fe;
+}
+
+p {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  width: 80%;
+}
+
+.clickme {
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Montserrat',bold;
+  padding: 5px 10px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.clickme:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.clickme:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.clickme:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower';
+
+}
+
+
+
+
+@media (max-width: 523px) {
+  h1 {
+    font-size: 2.3rem;
+}
+.container {
+  width: 100%;
+  padding-top: 20px;
+}
+.dice {
+  display: inline-block;
+  width: 49%;
+  padding-bottom: 50px;
+}
+
+ .clickme {
+   margin-top: 10px;
+ }
+
+ footer {
+   margin-top: 140px;
+ }
+}
+
+@media (max-width: 587px) and (min-width: 523px) {
+h1 {
+  font-size: 3.5rem;
+}
+
+  .dice {
+  display: inline-block;
+ width: 49%;
+ padding-bottom: 50px;
+  }
+  .container {
+    padding-top: 20px;
+  }
+  .clickme {
+    margin-top: 10px;
+ }
+footer {
+  margin-top: 10px;
+}
+
+
+}
+
+
+@media (max-width: 750px) and (min-width: 587px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .container {
+    width: 100%;
+  } 
+footer {
+margin-top: 80px;
+}
+.clickme {
+  margin-top: 20px;
+}
+
+}
+@media (max-width: 960px) and (min-width: 750px){
+  h1 {
+    font-size: 4rem;
+  }
+
+}
+
+@media (max-width: 1200px) and (min-width: 960px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+  .clickme {
+    margin-top: 40px;
+  }
+  footer {
+    margin-top: 7%;
+  } 
+}
