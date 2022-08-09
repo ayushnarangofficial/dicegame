@@ -50,7 +50,7 @@ img {
   list-style: none;
   overflow: hidden;
   text-decoration: none;
-  transition: box-shadow .15s, transform .15s;
+  transition: box-shadow .2s, transform .2s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
