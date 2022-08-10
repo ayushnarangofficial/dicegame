@@ -18,7 +18,7 @@ h1 {
   margin: 30px;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 5px 0 #232931;
-  font-size: 6rem;
+  font-size: 5.8rem;
   color: #f711fe;
 }
 
@@ -50,7 +50,7 @@ img {
   list-style: none;
   overflow: hidden;
   text-decoration: none;
-  transition: box-shadow .12s, transform .12s;
+  transition: box-shadow .15s, transform .15s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -65,7 +65,7 @@ img {
 
 .clickme:hover {
   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
-  
+  transform: translateY(-2px);
 }
 
 .clickme:active {
@@ -112,7 +112,7 @@ h1 {
   font-size: 3.5rem;
 }
 
-  .dice {
+.dice {
   display: inline-block;
  width: 49%;
  padding-bottom: 50px;
@@ -163,4 +163,66 @@ margin-top: 80px;
   footer {
     margin-top: 7%;
   } 
+}
+
+
+/* FOR CALCULATOR */
+
+.h1-c {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 100px;
+  
+}
+.container-C {
+  background-color: #fff;
+  width: 270px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 20px 10px rgb(18, 17, 17);
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 10px;
+
+}
+
+.result {
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.result-text {
+  font-size: 25px;
+  padding: 25px 0;
+  text-align: right;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  padding: 2px;
+
+
+
+}
+
+.button-C {
+  font-size: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 7px;
+  margin: 3px;
+  border-radius: 5px;
+
+}
+
+.button-C:hover {
+  background-color: rgb(219, 213, 213);
+}
+
+.button-C:active {
+  background-color: rgba(30, 30, 254, 0.975);
+  color: #fff;
 }
