@@ -32,9 +32,6 @@ function ab () {
 
 
 
-
-
-
 // js below for change dice on page reload 
 
 // var randomNumber1 = Math.floor((Math.random() * 6) + 1);
@@ -63,3 +60,38 @@ function ab () {
 // } else if (randomNumber1 === randomNumber2) {
 // document.querySelector("h1").textContent = "🚩Draw!🚩";
 // }
+
+
+
+
+// JS FOR CALCULATOR
+
+let screen = document.getElementById("result-screen");
+
+let buttons = Array.from(document.getElementsByClassName("button-C"));
+
+
+
+
+
+buttons.forEach((b)=>{
+b.addEventListener("click", ()=>{
+
+    let bc = b.textContent;
+    
+    if (bc === "C") {
+        screen.textContent = "";
+    } else if (bc === "=") {
+   let answer = eval(screen.textContent);
+   screen.textContent = answer;
+
+    } else if (bc === "x") {
+        screen.textContent += "*"
+    } else if (bc === "←") {
+       screen.textContent = screen.textContent.slice(0, -1);
+    }
+    else {
+      screen.textContent += bc
+    }
+});
+});
