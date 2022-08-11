@@ -65,6 +65,7 @@ img {
   will-change: box-shadow, transform;
   font-size: 18px;
   -webkit-animation: both;
+  
 }
 
 .clickme:focus {
@@ -192,6 +193,7 @@ margin-top: 80px;
   box-shadow: 0px 0px 20px 10px rgb(18, 17, 17);
   border: 5px solid rgb(255, 255, 255);
   border-radius: 10px;
+  touch-action: manipulation;
 
 }
 
@@ -214,6 +216,7 @@ margin-top: 80px;
   text-align: center;
   padding: 2px;
   cursor: pointer;
+  touch-action: manipulation;
 }
 
 .button-C {
@@ -225,6 +228,7 @@ margin-top: 80px;
   border-radius: 5px;
   user-select: none;
   -webkit-user-select: none;
+  touch-action: manipulation;
 
 }
 
