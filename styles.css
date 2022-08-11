@@ -1,3 +1,10 @@
+.main {
+border: 4px solid rgb(255, 255, 255);
+box-shadow: 0 0 10px 5px rgb(0, 0, 0);
+padding: 20px;
+margin: 5px;
+}
+
 .container {
   width: 100%;
   margin: auto;
@@ -12,7 +19,6 @@
 
 body {
   background-color: #393E46;
-  touch-action: manipulation;
 }
 
 h1 {
@@ -58,6 +64,7 @@ img {
   white-space: nowrap;
   will-change: box-shadow, transform;
   font-size: 18px;
+  -webkit-animation: both;
 }
 
 .clickme:focus {
@@ -67,13 +74,13 @@ img {
 .clickme:hover {
   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
   transform: translateY(-2px);
-  -webkit-transform: translateY(-2px);
 }
 
 .clickme:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
+ -webkit-transform: translateY(2px);
   transform: translateY(2px);
-  -webkit-transform: translateY(2px);
+
 }
 
 footer {
@@ -81,7 +88,6 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower';
-   touch-action: manipulation;
 
 }
 
@@ -186,7 +192,6 @@ margin-top: 80px;
   box-shadow: 0px 0px 20px 10px rgb(18, 17, 17);
   border: 5px solid rgb(255, 255, 255);
   border-radius: 10px;
-  touch-action: manipulation;
 
 }
 
@@ -208,10 +213,7 @@ margin-top: 80px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
   padding: 2px;
-  touch-action: manipulation;
-
-
-
+  cursor: pointer;
 }
 
 .button-C {
@@ -221,15 +223,18 @@ margin-top: 80px;
   padding: 7px;
   margin: 3px;
   border-radius: 5px;
-  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
 
 }
 
 .button-C:hover {
   background-color: rgb(219, 213, 213);
+  -webkit-animation: both;
 }
 
 .button-C:active {
   background-color: rgba(30, 30, 254, 0.975);
   color: #fff;
+  -webkit-animation: both;
 }
