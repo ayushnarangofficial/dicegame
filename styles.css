@@ -10,7 +10,7 @@ h1 {
   margin: 30px;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 5px 0 #232931;
-  font-size: 5.8rem;
+  font-size: 5.3rem;
   color: #f711fe;
 }
 
@@ -108,7 +108,7 @@ footer {
 .h1-C {
   color: #fff;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 80px 0 50px;
   padding-top: 80px;
   
@@ -178,7 +178,7 @@ footer {
 
 @media (max-width: 523px) {
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
 
   .container {
@@ -203,7 +203,7 @@ footer {
 
 @media (max-width: 587px) and (min-width: 523px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
 
   .dice {
@@ -228,7 +228,7 @@ footer {
 
 @media (max-width: 750px) and (min-width: 587px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.7rem;
   }
 
   .container {
@@ -247,14 +247,14 @@ footer {
 
 @media (max-width: 960px) and (min-width: 750px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.8rem;
   }
 
 }
 
 @media (max-width: 1200px) and (min-width: 960px) {
   h1 {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
   }
 
   .clickme {
