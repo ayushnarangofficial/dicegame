@@ -2,7 +2,7 @@
 
 body {
   background-color: #393E46;
-  margin-top: 20px;
+  margin-top: 80px;
   touch-action: manipulation;
 }
 
@@ -109,8 +109,8 @@ footer {
   color: #fff;
   text-align: center;
   font-size: 3rem;
-  margin: 100px 0 50px;
-  padding-top: 100px;
+  margin: 80px 0 50px;
+  padding-top: 80px;
   
 }
 .container-C {
